@@ -8,9 +8,7 @@
 	"engines": {
 		"vscode": "^1.96.0"
 	},
-	"categories": [
-		"Themes"
-	],
+	"categories": ["Themes"],
 	"contributes": {
 		"themes": [
 			{
@@ -19,5 +17,9 @@
 				"path": "./themes/42nd-color-theme.json"
 			}
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fawkes42/42nd.git"
 	}
 }
