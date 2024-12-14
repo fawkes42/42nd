@@ -21,5 +21,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/fawkes42/42nd.git"
-	}
+	},
+	"icon": "images/icon.png"
 }
