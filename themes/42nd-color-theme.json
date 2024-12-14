@@ -132,7 +132,10 @@
         },
         {
             "name": "Keyword",
-            "scope": "keyword",
+            "scope": [
+                "keyword",
+                "source.ts"
+            ],
             "settings": {
                 "foreground": "#9e4b4b"
             }
