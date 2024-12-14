@@ -3,8 +3,8 @@
 	"displayName": "42nd",
 	"author": "fawkes42",
 	"publisher": "fawkes42",
-	"description": "Just a theme that I like and you might like too.",
-	"version": "0.0.5",
+	"description": "Why 42nd? Because life’s too short for ugly themes. Plus, it’s scientifically proven that purple-powered editors boost creativity. (Not really, but it’s a nice thought.)",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
