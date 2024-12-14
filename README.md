@@ -2,7 +2,7 @@
 
 <span style="color: #cab577;">A sleek, minimalist dark theme designed to give your code editor a clean and modern look.</span> Perfect for developers who love a sharp contrast and a professional aesthetic.
 
-![Screenshot](#)
+[Screenshot]
 
 ## Features
 
