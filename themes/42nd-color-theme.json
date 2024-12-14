@@ -54,67 +54,34 @@
     },
     "tokenColors": [
         {
-            "name": "Async/Await",
+            "name": "Strings",
             "scope": [
-                "keyword.control.async",
-                "keyword.control.await"
+                "string",
+                "string.quoted",
+                "string.template",
+                "string.interpolated"
             ],
             "settings": {
-                "foreground": "#9e4b4b",
-                "fontStyle": "bold"
+                "foreground": "#72c572"
             }
         },
         {
-            "name": "Built-in constant",
-            "scope": "constant.language",
-            "settings": {
-                "foreground": "#72c5aa"
-            }
-        },
-        {
-            "name": "Built-in function",
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#72c5aa"
-            }
-        },
-        {
-            "name": "Class Name",
-            "scope": "entity.name.type.class",
-            "settings": {
-                "foreground": "#cab577"
-            }
-        },
-        {
-            "name": "Comment",
-            "scope": "comment",
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "comment.line",
+                "comment.block"
+            ],
             "settings": {
                 "foreground": "#8c8c8c"
             }
         },
         {
-            "name": "Function",
-            "scope": "entity.name.function",
-            "settings": {
-                "foreground": "#846daf"
-            }
-        },
-        {
-            "name": "JSX/TSX Attribute Name",
+            "name": "Import/Export Paths",
             "scope": [
-                "meta.attribute.name",
-                "entity.other.attribute-name"
-            ],
-            "settings": {
-                "foreground": "#5085c0"
-            }
-        },
-        {
-            "name": "JSX/TSX Attribute Value",
-            "scope": [
-                "meta.embedded.block.html string.quoted",
-                "meta.tag.attributes.string.html",
-                "string.quoted.double.html"
+                "string.quoted.module",
+                "string.quoted.single.module",
+                "string.quoted.double.module"
             ],
             "settings": {
                 "foreground": "#72c572"
@@ -123,56 +90,192 @@
         {
             "name": "JSX/TSX Tag",
             "scope": [
-                "entity.name.tag",
-                "support.class.component.tsx"
+                "entity.name.tag.tsx",
+                "entity.name.tag.jsx",
+                "support.class.component.tsx",
+                "support.class.component.jsx"
             ],
             "settings": {
                 "foreground": "#846daf"
             }
         },
         {
-            "name": "Keyword",
+            "name": "JSX/TSX Attribute Name",
             "scope": [
-                "keyword",
-                "source.ts"
+                "entity.other.attribute-name.tsx",
+                "entity.other.attribute-name.jsx",
+                "meta.tag.attributes meta.attribute"
+            ],
+            "settings": {
+                "foreground": "#5085c0"
+            }
+        },
+        {
+            "name": "JSX/TSX Attribute Value",
+            "scope": [
+                "meta.tag.attributes string.quoted.tsx",
+                "meta.tag.attributes string.quoted.jsx"
+            ],
+            "settings": {
+                "foreground": "#72c572"
+            }
+        },
+        {
+            "name": "Global Operators and Punctuation",
+            "scope": [
+                "punctuation",
+                "punctuation.definition",
+                "punctuation.separator",
+                "punctuation.terminator",
+                "punctuation.bracket",
+                "punctuation.section",
+                "meta.brace",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
+                "keyword.operator.arithmetic",
+                "keyword.operator.assignment",
+                "keyword.operator.spread",
+                "keyword.operator.increment",
+                "keyword.operator.decrement",
+                "keyword.operator.bitwise",
+                "keyword.operator.ternary"
             ],
             "settings": {
                 "foreground": "#9e4b4b"
             }
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
+            "name": "TypeScript/JavaScript Specific Operators",
+            "scope": [
+                "keyword.operator.instanceof.js",
+                "keyword.operator.instanceof.ts",
+                "keyword.operator.typeof.js",
+                "keyword.operator.typeof.ts",
+                "keyword.operator.in.js",
+                "keyword.operator.in.ts",
+                "keyword.operator.of.js",
+                "keyword.operator.of.ts"
+            ],
             "settings": {
-                "foreground": "#ccb577"
+                "foreground": "#9e4b4b"
             }
         },
         {
-            "name": "Operator",
-            "scope": "keyword.operator",
+            "name": "Global Keywords",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "storage.type",
+                "storage.modifier",
+                "storage.control"
+            ],
             "settings": {
-                "foreground": "#f4f4f4"
+                "foreground": "#9e4b4b"
             }
         },
         {
-            "name": "String",
-            "scope": "string",
+            "name": "Language Constants",
+            "scope": [
+                "constant.language",
+                "constant.language.boolean",
+                "constant.language.null",
+                "constant.language.undefined"
+            ],
             "settings": {
-                "foreground": "#72c572"
+                "foreground": "#72c5aa"
             }
         },
         {
-            "name": "Type",
-            "scope": "entity.name.type",
+            "name": "Function Calls and Methods",
+            "scope": [
+                "meta.function-call",
+                "meta.method-call",
+                "support.function.call",
+                "entity.name.function.call"
+            ],
             "settings": {
                 "foreground": "#5085c0"
             }
         },
         {
-            "name": "Variable",
-            "scope": "variable",
+            "name": "Support Functions and Types",
+            "scope": [
+                "support.function",
+                "support.type",
+                "support.class",
+                "support.module"
+            ],
+            "settings": {
+                "foreground": "#72c5aa"
+            }
+        },
+        {
+            "name": "Object Properties",
+            "scope": [
+                "meta.object-literal.key",
+                "support.type.property-name",
+                "entity.name.tag.yaml",
+                "meta.object-literal.key.js",
+                "meta.object-literal.key.ts"
+            ],
             "settings": {
                 "foreground": "#cab577"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "variable.other.readwrite",
+                "variable.other.object",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#cab577"
+            }
+        },
+        {
+            "name": "Class and Type Definitions",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.type.class",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#5085c0"
+            }
+        },
+        {
+            "name": "Imports and Modules",
+            "scope": [
+                "keyword.control.import",
+                "keyword.control.export",
+                "meta.import",
+                "meta.export"
+            ],
+            "settings": {
+                "foreground": "#9e4b4b"
+            }
+        },
+        {
+            "name": "This and Self Keywords",
+            "scope": [
+                "variable.language.this",
+                "variable.language.self"
+            ],
+            "settings": {
+                "foreground": "#9e4b4b"
+            }
+        },
+        {
+            "name": "Method Definitions",
+            "scope": [
+                "entity.name.function",
+                "meta.definition.method"
+            ],
+            "settings": {
+                "foreground": "#846daf"
             }
         }
     ]

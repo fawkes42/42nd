@@ -4,7 +4,7 @@
 	"author": "fawkes42",
 	"publisher": "fawkes42",
 	"description": "Just a theme that I like and you might like too.",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
