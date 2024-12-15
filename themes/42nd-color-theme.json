@@ -253,13 +253,24 @@
             "name": "Object Properties",
             "scope": [
                 "meta.object-literal.key",
-                "support.type.property-name",
-                "entity.name.tag.yaml",
                 "meta.object-literal.key.js",
-                "meta.object-literal.key.ts"
+                "meta.object-literal.key.ts",
+                "support.type.property-name.js",
+                "support.type.property-name.ts"
             ],
             "settings": {
                 "foreground": "#00c2a8"
+            }
+        },
+        {
+            "name": "JSON Property Names",
+            "scope": [
+                "support.type.property-name.json",
+                "entity.name.tag.yaml",
+                "meta.object-literal.key.json"
+            ],
+            "settings": {
+                "foreground": "#cab577"
             }
         },
         {
