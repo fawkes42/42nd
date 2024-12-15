@@ -42,7 +42,23 @@
         "tab.inactiveBackground": "#0e0d0d",
         "terminal.background": "#0e0d0d",
         "titleBar.activeBackground": "#0e0d0d",
-        "titleBar.border": "#373737"
+        "titleBar.border": "#373737",
+        "terminal.ansiBlack": "#0e0d0d",
+        "terminal.ansiBrightBlack": "#373737",
+        "terminal.ansiRed": "#9e4b4b",
+        "terminal.ansiBrightRed": "#ff5c5c",
+        "terminal.ansiGreen": "#72c572",
+        "terminal.ansiBrightGreen": "#8ce88c",
+        "terminal.ansiYellow": "#cab577",
+        "terminal.ansiBrightYellow": "#fce788",
+        "terminal.ansiBlue": "#5085c0",
+        "terminal.ansiBrightBlue": "#6da6ff",
+        "terminal.ansiMagenta": "#846daf",
+        "terminal.ansiBrightMagenta": "#a57ede",
+        "terminal.ansiCyan": "#72c5aa",
+        "terminal.ansiBrightCyan": "#89f2d6",
+        "terminal.ansiWhite": "#f4f4f4",
+        "terminal.ansiBrightWhite": "#ffffff"
     },
     "tokenColors": [
         {
