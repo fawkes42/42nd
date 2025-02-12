@@ -8,7 +8,7 @@
         "activityBarBadge.background": "#D2A8FF",
         "activityBarBadge.foreground": "#0e0d0d",
         "button.background": "#D2A8FF",
-        "button.foreground": "#C9D1D9",
+        "button.foreground": "#0e0d0d",
         "button.hoverBackground": "#D2A8FF99",
         "button.secondaryBackground": "#D2A8FF",
         "dropdown.background": "#0e0d0d",
@@ -122,7 +122,7 @@
 				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#cab577"
+				"foreground": "#FF7B72"
 			}
 		},
 		{
@@ -159,6 +159,14 @@
 			],
 			"settings": {
 				"foreground": "#D2A8FF"
+			}
+		},
+		{
+			"scope": [
+				"entity.name",
+			],
+			"settings": {
+				"foreground": "#FF7B72"
 			}
 		},
 		{
