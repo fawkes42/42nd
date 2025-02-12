@@ -139,7 +139,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#cab577"
+				"foreground": "#79C0FF"
 			}
 		},
 		{
@@ -166,7 +166,7 @@
 				"entity.name",
 			],
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#cab577"
 			}
 		},
 		{
