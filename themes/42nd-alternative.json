@@ -1,5 +1,5 @@
 {
-    "name": "42nd",
+    "name": "42nd - Alternative",
     "type": "dark",
     "colors": {
         "activityBar.background": "#0e0d0d",
@@ -122,7 +122,7 @@
 				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#cab577"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#79C0FF"
+				"foreground": "#cab577"
 			}
 		},
 		{
@@ -159,14 +159,6 @@
 			],
 			"settings": {
 				"foreground": "#D2A8FF"
-			}
-		},
-		{
-			"scope": [
-				"entity.name",
-			],
-			"settings": {
-				"foreground": "#cab577"
 			}
 		},
 		{

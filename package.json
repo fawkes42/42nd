@@ -4,7 +4,7 @@
 	"author": "fawkes42",
 	"publisher": "fawkes42",
 	"description": "Why 42nd? Because life’s too short for ugly themes.",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
@@ -14,7 +14,12 @@
 			{
 				"label": "42nd",
 				"uiTheme": "vs-dark",
-				"path": "./themes/42nd-color-theme.json"
+				"path": "./themes/42nd.json"
+			},
+			{
+				"label": "42nd - Alternative",
+				"uiTheme": "vs-dark",
+				"path": "./themes/42nd-alternative.json"
 			}
 		]
 	},
