@@ -10,7 +10,8 @@
         "button.background": "#D2A8FF",
         "button.foreground": "#0e0d0d",
         "button.hoverBackground": "#D2A8FF99",
-        "button.secondaryBackground": "#D2A8FF",
+        "button.secondaryBackground": "#FF7B72",
+        "button.secondaryForeground": "#0e0d0d",
         "dropdown.background": "#0e0d0d",
         "dropdown.foreground": "#C9D1D9",
         "dropdown.border": "#373737",
@@ -163,7 +164,7 @@
 		},
 		{
 			"scope": [
-				"entity.name",
+				"entity.name"
 			],
 			"settings": {
 				"foreground": "#FF7B72"
