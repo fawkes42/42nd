@@ -10,7 +10,7 @@
         "button.background": "#D2A8FF",
         "button.foreground": "#0e0d0d",
         "button.hoverBackground": "#D2A8FF99",
-        "button.secondaryBackground": "#FF7B72",
+        "button.secondaryBackground": "#DB6B6B",
         "button.secondaryForeground": "#0e0d0d",
         "dropdown.background": "#0e0d0d",
         "dropdown.foreground": "#C9D1D9",
@@ -44,7 +44,7 @@
         "inputOption.activeBackground": "#D2A8FF",
         "inputOption.activeBorder": "#373737",
         "inputOption.activeForeground": "#C9D1D9",
-        "inputValidation.errorBackground": "#FF7B72",
+        "inputValidation.errorBackground": "#DB6B6B",
         "inputValidation.errorBorder": "#C9D1D9",
         "inputValidation.infoBackground": "#D2A8FF",
         "inputValidation.infoBorder": "#373737",
@@ -78,7 +78,7 @@
         "titleBar.border": "#373737",
         "terminal.ansiBlack": "#0e0d0d",
         "terminal.ansiBrightBlack": "#373737",
-        "terminal.ansiRed": "#FF7B72",
+        "terminal.ansiRed": "#DB6B6B",
         "terminal.ansiBrightRed": "#ff5c5c",
         "terminal.ansiGreen": "#72c572",
         "terminal.ansiBrightGreen": "#8ce88c",
@@ -171,7 +171,7 @@
 		{
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#DB6B6B"
 			}
 		},
 		{
@@ -359,7 +359,7 @@
 		{
 			"scope": "string.regexp constant.character.escape",
 			"settings": {
-				"foreground": "#FF7B72",
+				"foreground": "#DB6B6B",
 				"fontStyle": "bold"
 			}
 		},
@@ -400,7 +400,7 @@
 		{
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#DB6B6B"
 			}
 		},
 		{
