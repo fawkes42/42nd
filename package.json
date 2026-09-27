@@ -3,8 +3,8 @@
 	"displayName": "42nd",
 	"author": "fawkes42",
 	"publisher": "fawkes42",
-	"description": "Why 42nd? Because life’s too short for ugly themes.",
-	"version": "0.0.15",
+	"description": "Dark, quiet themes for VS Code and Zed.",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
@@ -14,12 +14,12 @@
 			{
 				"label": "42nd",
 				"uiTheme": "vs-dark",
-				"path": "./themes/42nd.json"
+				"path": "./vs-code/42nd.json"
 			},
 			{
-				"label": "42nd - Alternative",
+				"label": "42nd Ember",
 				"uiTheme": "vs-dark",
-				"path": "./themes/42nd-alternative.json"
+				"path": "./vs-code/42nd-ember.json"
 			}
 		]
 	},

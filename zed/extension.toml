@@ -1,0 +1,7 @@
+id = "42nd-theme"
+name = "42nd"
+version = "0.1.0"
+schema_version = 1
+authors = ["fawkes42"]
+description = "Dark, quiet themes: 42nd and 42nd Ember."
+repository = "https://github.com/fawkes42/42nd"
